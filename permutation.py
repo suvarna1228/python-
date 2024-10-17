@@ -10,3 +10,5 @@ def next_permutation(nums):
         nums[i], nums[j] = nums[j], nums[i]
     nums[i + 1:] = reversed(nums[i + 1:])
     return nums
+nums = [1, 2, 3]
+print(next_permutation(nums))

@@ -20,13 +20,13 @@ def markCol(a, j, n):
             a[i][j] = -1
 
 matrix = [
-    [1, 2, 3],
+    [1, 2, 0],
     [4, 0, 6],
     [7, 8, 9]
 ]
 
 n = len(matrix)
-m = len(matrix[0])
+m = len(matrix)
 
 matrix_zero(matrix, n, m)
 
